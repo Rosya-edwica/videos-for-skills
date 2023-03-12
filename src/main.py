@@ -26,7 +26,7 @@ def main():
             )
             process.close()
             process.join()
-        break
+        
 
 def find(skill):
     videos = youtube.find_video_for_skill(skill)
